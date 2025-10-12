@@ -97,31 +97,6 @@
       }
     }
   },
-  "farmerProfile": {
-    "personalInfo": {
-      "title": "Información Personal",
-      "name": "Nombre",
-      "surname": "Apellido",
-      "email": "Correo Electrónico",
-      "phone": "Teléfono",
-      "namePlaceholder": "Ingresa tu nombre",
-      "surnamePlaceholder": "Ingresa tu apellido",
-      "emailPlaceholder": "Ingresa tu correo electrónico",
-      "phonePlaceholder": "Ingresa tu número de teléfono",
-      "save": "Guardar Información Personal",
-      "saving": "Guardando Información Personal...",
-      "validation": {
-        "nameMin": "El nombre debe tener al menos 2 caracteres",
-        "nameMax": "El nombre debe tener máximo 50 caracteres",
-        "surnameMin": "El apellido debe tener al menos 2 caracteres",
-        "surnameMax": "El apellido debe tener máximo 50 caracteres",
-        "emailInvalid": "Dirección de correo electrónico inválida",
-        "phoneMin": "El número de teléfono parece muy corto",
-        "phoneMax": "El número de teléfono parece muy largo",
-        "phoneFormat": "Formato de número de teléfono inválido"
-      }
-    }
-  },
   "Waitlist": {
     "title": "Únete a la Lista de Espera",
     "subtitle": "Sé el primero en saber cuando lancemos y obtén beneficios exclusivos de acceso anticipado.",
@@ -150,54 +125,9 @@
       "signups": "Registros Tempranos",
       "countries": "Países",
       "launchDate": "Fecha de Lanzamiento"
-    },
-    "trustBadges": "Confiado por organizaciones líderes",
-    "fields": {
-      "name": {
-        "label": "Nombre",
-        "placeholder": "Juan Pérez"
-      },
-      "email": {
-        "label": "Correo",
-        "placeholder": "juan@ejemplo.com"
-      },
-      "role": {
-        "label": "Me interesa como...",
-        "placeholder": "Selecciona tu rol"
-      },
-      "consent": {
-        "label": "Acepto recibir actualizaciones sobre el lanzamiento y noticias de Revo Farmers",
-        "description": "Puedes cancelar la suscripción en cualquier momento"
-      }
-    },
-    "roles": {
-      "farmer": "Agricultor/Productor",
-      "investor": "Inversionista",
-      "consumer": "Consumidor/Comprador",
-      "partner": "Socio Comercial",
-      "other": "Otro"
-    },
-    "submit": "Unirse a la Lista",
-    "submitting": "Uniéndose...",
-    "privacy": "Respetamos tu privacidad y nunca compartiremos tu información.",
-    "success": {
-      "title": "¡Bienvenido a bordo!",
-      "message": "¡Gracias por unirte! Revisa tu correo para la confirmación.",
-      "emailSent": "Confirmación enviada a {email}",
-      "sharePrompt": "¡Ayúdanos a correr la voz!",
-      "addAnother": "Agregar otro correo"
-    },
-    "social": {
-      "shareText": "¡Me uní a la lista de espera de Revo Farmers! Únete a revolucionar la agricultura 🌱",
-      "share": "Compartir"
-    },
-    "errors": {
-      "emailExists": "Este correo ya está registrado",
-      "invalidEmail": "Por favor ingresa un correo válido",
-      "rateLimited": "Demasiadas solicitudes. Por favor intenta más tarde.",
-      "generic": "Algo salió mal. Por favor intenta de nuevo."
     }
   },
+
   "Unsubscribe": {
     "title": "Cancelar Suscripción de la Lista",
     "description": "Lamentamos verte partir. Por favor confirma tu dirección de correo para cancelar tu suscripción a la lista de espera de Revo Farmers.",
@@ -233,6 +163,8 @@
   },
   "HowWeWork": {
     "title": "Cómo Funcionamos",
+    "subtitle": "Empoderando a Agricultores y Compradores con Tecnología Blockchain",
+    "description": "Revolutionary Farmers conecta a agricultores y compradores mediante una plataforma impulsada por blockchain que garantiza transacciones seguras, transparencia y comercio justo.",
     "toggle": {
       "farmer": "Agricultor",
       "buyer": "Comprador",
@@ -1187,63 +1119,72 @@
       "labels": {
         "search": "Búsqueda",
         "location": "Ubicación",
-        "cert": "Cert.",
-        "method": "Método",
-        "distance": "Dist.",
-        "rating": "Calificación"
+        "certification": "Certificación",
+        "farmingMethod": "Método de Cultivo",
+        "distance": "Distancia",
+        "rating": "Calificación",
+        "apply": "Aplicar Filtro",
+        "clear": "Limpiar Filtros",
+        "active": "Filtros activos",
+        "any": "Cualquiera",
+        "labels": {
+          "search": "Búsqueda",
+          "location": "Ubicación",
+          "cert": "Cert.",
+          "method": "Método",
+          "distance": "Dist.",
+          "rating": "Calificación"
+        },
+        "clearAll": "Limpiar todos los filtros",
+        "clearSearch": "Limpiar búsqueda",
+        "clearLocation": "Limpiar filtro de ubicación",
+        "clearCertification": "Limpiar filtro de certificación",
+        "clearMethod": "Limpiar filtro de método de cultivo",
+        "clearDistance": "Limpiar filtro de distancia",
+        "clearRating": "Limpiar filtro de calificación"
       },
-      "clearAll": "Limpiar todos los filtros",
-      "clearSearch": "Limpiar búsqueda",
-      "clearLocation": "Limpiar filtro de ubicación",
-      "clearCertification": "Limpiar filtro de certificación",
-      "clearMethod": "Limpiar filtro de método de cultivo",
-      "clearDistance": "Limpiar filtro de distancia",
-      "clearRating": "Limpiar filtro de calificación"
-    },
-    "sortBy": {
-      "showing": "Mostrando",
-      "of": "de",
-      "producers": "Productores",
-      "label": "Ordenar por",
-      "distance": "Distancia",
-      "rating": "Calificación",
-      "name": "Nombre",
-      "products": "Cantidad de Productos"
-    },
-    "producerCard": {
-      "market": "Mercado",
-      "farmer": "Agricultor",
-      "location": "Ubicación",
-      "distance": "Distancia",
-      "certifications": "Certificaciones",
-      "organic": "Orgánico Certificado",
-      "fairTrade": "Comercio Justo",
-      "viewProfile": "Ver Perfil",
-      "addToCart": "Agregar al Carrito",
-      "products": "Productos",
-      "reviews": "Reseñas",
-      "rating": "Calificación",
-      "kmAway": "A {distance} km de distancia",
-      "milesAway": "A {distance} millas de distancia"
-    },
-    "cta": {
-      "title": "¿Eres productor?",
-      "description": "Únete a nuestra comunidad de agricultores sostenibles y conecta directamente con consumidores que valoran la calidad y transparencia.",
-      "joinButton": "Únete como Productor"
-    },
-    "loadMore": "Cargar más productores",
-    "loadMoreAria": "Cargar más productores",
-    "empty": {
-      "title": "No se encontraron productores",
-      "description": "Intenta ajustar tus filtros o criterios de búsqueda para encontrar productores en tu área."
-    },
-    "breadcrumb": {
-      "home": "Inicio",
-      "producers": "Productores"
+      "sortBy": {
+        "showing": "Mostrando",
+        "of": "de",
+        "producers": "Productores",
+        "label": "Ordenar por",
+        "distance": "Distancia",
+        "rating": "Calificación",
+        "name": "Nombre",
+        "products": "Cantidad de Productos"
+      },
+      "producerCard": {
+        "market": "Mercado",
+        "farmer": "Agricultor",
+        "location": "Ubicación",
+        "distance": "Distancia",
+        "certifications": "Certificaciones",
+        "organic": "Orgánico Certificado",
+        "fairTrade": "Comercio Justo",
+        "viewProfile": "Ver Perfil",
+        "addToCart": "Agregar al Carrito",
+        "products": "Productos",
+        "reviews": "Reseñas",
+        "rating": "Calificación",
+        "kmAway": "A {distance} km de distancia",
+        "milesAway": "A {distance} millas de distancia"
+      },
+      "cta": {
+        "title": "¿Eres productor?",
+        "description": "Únete a nuestra comunidad de agricultores sostenibles y conecta directamente con consumidores que valoran la calidad y transparencia.",
+        "joinButton": "Únete como Productor"
+      },
+      "loadMore": "Cargar más productores",
+      "loadMoreAria": "Cargar más productores",
+      "empty": {
+        "title": "No se encontraron productores",
+        "description": "Intenta ajustar tus filtros o criterios de búsqueda para encontrar productores en tu área."
+      },
+      "breadcrumb": {
+        "home": "Inicio",
+        "producers": "Productores"
+      }
     }
-
-  
-}
   },
   "ContactInfo": {
     "title": "Información de Contacto",
@@ -1682,4 +1623,5 @@
     "checkoutButton": "Proceder al Pago de Depósito",
     "escrowNote": "Tu pago se mantendrá en depósito hasta que confirmes la recepción de los productos"
   }
+}
 }
